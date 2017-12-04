@@ -4,5 +4,5 @@ var field = document.getElementById("todo-field")
 
 button.onclick = function()
 {
-  todo.innerHTML += "<p>" + field.value + "  <button>X</button</p>"
+  todo.innerHTML += "<p>" + field.value + "</p>"
 }
